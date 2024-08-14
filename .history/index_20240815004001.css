@@ -202,15 +202,15 @@ align-items: center;
     } 
 
     .container img {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 400px;
     }
 
     .text_intro {
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .nav_bar {
-        width: 400px;
+        width: 700px;
     }
 }
