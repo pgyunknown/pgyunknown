@@ -5,7 +5,7 @@ Heyy, I'm <a href="" target="_blank" rel="noreferrer">Gokul</a> 👋
 
 
 <h2 align="center">
-I'm a Web Developer 💻! <br>
+I'm a Web Developer <br>
 Entrepreneur <br>
-We Go Gym
+We Go Gym !!!
 </h2> 
