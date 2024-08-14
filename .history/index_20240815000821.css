@@ -114,6 +114,7 @@ main{
     margin: 3.4rem;
 }
 .contianer img{
+    position: relative;
     display: flex;
     justify-content: center;
     height: 500px;
@@ -195,16 +196,16 @@ align-items: center;
 }
 
 @media (min-width: 1024px) {
-    main {
+    /* main {
         flex-direction: row;
-        padding: 1rem;
-        margin: 10rem;
-    } 
+        padding: 2rem;
+        margin: 1rem;
+    } */
 
-    .container img {
+    /* .container img {
         height: 500px;
         width: 400px;
-    }
+    } */
 
     .text_intro {
         margin-left: 20px;

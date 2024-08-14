@@ -114,6 +114,7 @@ main{
     margin: 3.4rem;
 }
 .contianer img{
+    position: absolute;
     display: flex;
     justify-content: center;
     height: 500px;
