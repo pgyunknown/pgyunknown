@@ -68,16 +68,15 @@ header{
     text-decoration: none;
     justify-content: space-around;
     align-items: center;
-    padding-top:10px;
-    padding-bottom :10px;
-    /* padding-right:10px ;
-    padding-left:10px ; */
+    padding-right:10px ;
+    padding-left:10px ;
 }
 
 .nav_bar a:hover{
-    color: #FFC107;
-    text-shadow: #FFC107 0px 0px  1px;
-    border-bottom: 0.5px solid #FFC107;
+    color: #;
+    text-shadow: #2792bd 0px 0px  50px;
+    border: 0.5px solid #FFC107;
+    border-radius: 0.3rem;
 
 
 }
