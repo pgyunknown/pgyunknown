@@ -68,8 +68,7 @@ header{
     text-decoration: none;
     justify-content: space-around;
     align-items: center;
-    padding-top:10px;
-    padding-bottom :10px;
+    padding: px ;
 }
 
 .nav_bar a:hover{
@@ -385,7 +384,7 @@ main article{
 
 .blog_intro{
     padding: 40px;
-    width: 1000px;
+    width: 1050px;
     height: 450px;
 }
 
