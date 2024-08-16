@@ -108,17 +108,17 @@ header{
 } 
     main{ 
     display: flex;
-    flex-direction:column ;
-    /* justify-content:space-around; */
+    flex-direction:row ;
+    justify-content:space-around;
     align-items: center;
     padding: 4.6rem;
     margin: 10px;
 }  
-main .personal_intro{display: flex;
-    flex-direction: row;
+main .personal_intro{
 
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-optical-sizing: ;
     font-size: medium;
     font-weight: 300;
     font-style: normal;
@@ -130,61 +130,20 @@ main .personal_intro{display: flex;
     word-spacing: 10px;
     line-height: 25px;
 }
-
-main .contianer{
-    height: 500px;
-    width: 80%;
+.contianer{
+    /* height: 400px;
+    width:100%; */
     padding: 10px;
+
     display: flex;
+    flex-direction: ;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: row;
-    justify-content: center;
-    align-items: start;
-}
-
-main .contianer img{
-    height: 350px;
-    width: 350px ;
-    padding: 80px;
 
 }
-
-
-
-footer{
-    display: flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-size: small;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.footer_icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-}
-
-
-
-.copyrights{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_icons a{
-font-size: medium;
-padding: 10px;
-width: 50px;
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
+.contianer img{
+    /* height: 400px;
+    width: 400px; */
+    border-radius:10px;
+    /* border: 1px solid 

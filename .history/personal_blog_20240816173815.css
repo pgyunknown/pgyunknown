@@ -109,7 +109,7 @@ header{
     main{ 
     display: flex;
     flex-direction:column ;
-    /* justify-content:space-around; */
+    justify-content:space-around;
     align-items: center;
     padding: 4.6rem;
     margin: 10px;
@@ -131,60 +131,23 @@ main .personal_intro{display: flex;
     line-height: 25px;
 }
 
-main .contianer{
-    height: 500px;
-    width: 80%;
+main .contianer{display: flex;
+    flex-direction: column;
+        justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+}
+main .contianer a{
+/*         
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+
+    height: 10px;
+    width:10px;
     padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-}
-
-main .contianer img{
-    height: 350px;
-    width: 350px ;
-    padding: 80px;
-
-}
 
 
-
-footer{
-    display: flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-size: small;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.footer_icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-}
-
-
-
-.copyrights{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_icons a{
-font-size: medium;
-padding: 10px;
-width: 50px;
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
 }

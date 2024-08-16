@@ -106,49 +106,55 @@ header{
     box-shadow: 0px 0px 5px 2px #3c555f;
     
 } 
-    main{ 
+
+
+
+main{
     display: flex;
-    flex-direction:column ;
-    /* justify-content:space-around; */
+    justify-content:space-around;
     align-items: center;
     padding: 4.6rem;
-    margin: 10px;
-}  
-main .personal_intro{display: flex;
-    flex-direction: row;
+    margin: 3.4rem;
+}
+.contianer img{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width:400px;
+    border-radius:10px;
+    border: 1px solid #2792bd;
+    box-shadow: 0px 0px 35px 1px #2792bd;
 
+}
+
+.text_intro{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-size: medium;
-    font-weight: 300;
+    font-size: x-large;
+    font-weight: 500;
     font-style: normal;
-
-
-    padding:10px;
-    margin: 10px;
-
-    word-spacing: 10px;
-    line-height: 25px;
-}
-
-main .contianer{
-    height: 500px;
-    width: 80%;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: start;
+    
 }
 
-main .contianer img{
-    height: 350px;
-    width: 350px ;
-    padding: 80px;
-
+.intro {
+  color:;
+}
+.title {
+    color: #00C8FF;
+}
+.description {
+    
+  font-size: 24px;
+  color: #FFC107;
 }
 
-
+.description span{
+    font-size: 24px;
+}
 
 footer{
     display: flex;
@@ -156,6 +162,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 20px;
+        
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-size: small;
@@ -187,4 +194,26 @@ height: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
+
+}
+
+@media (min-width:720px) {
+    main {
+        flex-direction: row;
+        padding: 1rem;
+        margin: 10rem;
+    } 
+
+    .container img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .text_intro {
+        margin-left: 50px;
+    }
+
+    .nav_bar {
+        width: 450px;
+    }
 }
