@@ -406,8 +406,8 @@ main article{
     font-weight: 500;
     font-style: normal;
     letter-spacing: 4px;
-    text-decoration: underline;
-    text-decoration-color: #1ABEFF;
+text-decoration: underline;
+}text-decoration-color: #1ABEFF;
 }
 .blog_intro p{
     padding-top: 20px;
@@ -462,4 +462,3 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
