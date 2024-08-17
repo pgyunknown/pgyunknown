@@ -118,7 +118,7 @@ header{
     padding: 50px;
     margin: 60px 20px 70px 20px;
 }  
-main .professtional_intro{
+main .personal_intro{
     display: flex;
     flex-direction: row;
     font-family: "Montserrat", sans-serif;
