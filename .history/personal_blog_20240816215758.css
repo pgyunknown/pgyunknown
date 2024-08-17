@@ -130,7 +130,7 @@ main .personal_intro{
     margin-bottom: 50px;
     word-spacing: 10px;
     line-height: 25px;
-    text-shadow: #FC0 0 0 5px;
+    text-shadow: #FC0 1px 0 10px;
 }
 
 main .contianer{

@@ -79,7 +79,6 @@ header{
     text-shadow: #FFC107 0px 0px  1px;
     border-bottom: 0.5px solid #FFC107;
 
-
 }
 
 
@@ -130,7 +129,7 @@ main .personal_intro{
     margin-bottom: 50px;
     word-spacing: 10px;
     line-height: 25px;
-    text-shadow: #FC0 0 0 5px;
+    text-shadow: #FC0 1px 0 5px;
 }
 
 main .contianer{
@@ -147,8 +146,17 @@ main .contianer img{
     height: 350px;
     width: 350px;
     border-radius:10px;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 0px 25px 1px #2792bd;
+    border: 1px solid #2792bd;
+    box-shadow: 0px 0px 35px 1px #2792bd;
+}
+
+main .contianer img:hover{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+    
+
 }
 
 footer{

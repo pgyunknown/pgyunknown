@@ -118,22 +118,7 @@ header{
     padding: 50px;
     margin: 60px 20px 70px 20px;
 }  
-main .personal_intro{
-    display: flex;
-    flex-direction: row;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-size: medium;
-    font-weight: 300;
-    font-style: normal;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    word-spacing: 10px;
-    line-height: 25px;
-    text-shadow: #FC0 0 0 5px;
-}
-
-main .contianer{
+main .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -141,14 +126,40 @@ main .contianer{
     height: 500px;
     width: 100%;
     padding: 20px;
+    position: relative;
 }
 
-main .contianer img{
+main .container .image-wrapper {
+    position: relative;
+}
+
+main .container img {
     height: 350px;
     width: 350px;
-    border-radius:10px;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 0px 25px 1px #2792bd;
+    border-radius: 10px;
+    border: 1px solid #2792bd;
+    box-shadow: 0px 0px 35px 1px #2792bd;
+    transition: transform 0.3s ease-in-out;
+}
+
+main .container img:hover {
+    transform: scale(1.05);
+}
+
+main .container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
 }
 
 footer{
@@ -190,3 +201,4 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
