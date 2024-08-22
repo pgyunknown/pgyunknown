@@ -1,0 +1,217 @@
+*{margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #00171F;
+    color: white;
+    box-sizing: border-box;
+    
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* Glassy effect */
+    background: linear-gradient(135deg, rgba(0, 200, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+} 
+
+.pgy_con
+{
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: normal;
+    align-items: end;
+    
+}
+
+.pgy_con .pgy a{
+    text-decoration: none;
+}
+.nav_bar {
+        /* height: 50px; */
+    width: 500px; 
+    display: flex;
+    justify-content: space-evenly;
+
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+
+}
+
+.nav_bar a{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom :10px;
+    /* padding-right:10px ;
+    padding-left:10px ; */
+}
+
+.nav_bar a:hover{
+    color: #FFC107;
+    text-shadow: #FFC107 0px 0px  1px;
+    border-bottom: 0.5px solid #FFC107;
+
+
+}
+
+
+.resume_con {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    background-color: #00171F;
+    margin-right: 40px;
+}
+.resume_con button{
+    background-color:rgba(0, 200, 255, 0.1);
+    box-sizing: content-box;
+    height: 2.5rem;
+    width: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    font-weight: 500;
+    font-style: normal;
+    color: #1ABEFF;
+    border: 0.0001px solid #3c555f;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px 2px #3c555f;
+    
+}
+main{
+    height: 100%;
+    width:1125px;
+    margin: 10px;
+}
+main .contianer1{
+    height: 100%;
+    width: 100%;
+    /* padding: 10px; */
+    /* /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+main .contianer1 img{
+    height: 350px;
+    width: 350px;
+    /* border-radius:10px; */
+    /* border: 1px solid #ffffff; */
+    /* box-shadow: 0px 0px 25px 1px #2792bd; */
+    padding:30px;
+}
+
+
+main .contianer2{
+    height: 100%;
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .contianer2 img{
+    height: 350px;
+    width: 350px;
+    /* border-radius:10px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 25px 1px #2792bd; */
+    padding:30px
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: small;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_icons a{
+font-size: medium;
+padding: 10px;
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media (min-width:720px) {
+    main {
+        flex-direction: row;
+        padding: 1rem;
+        margin: 10rem;
+    } 
+
+    .container img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .text_intro {
+        margin-left: 50px;
+    }
+
+    .nav_bar {
+        width: 450px;
+    }
+}
