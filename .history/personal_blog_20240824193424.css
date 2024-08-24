@@ -193,14 +193,18 @@ align-items: center;
 
 @media (min-width:720px) {
     main {
-        flex-direction: column;
+        flex-direction: row;
         padding: 1rem;
         margin: 10rem;
     } 
 
-    .container1 img {
+    .container img {
         height: 200px;
         width: 200px;
+    }
+
+    .text_intro {
+        margin-left: 50px;
     }
 
     .nav_bar {

@@ -198,9 +198,13 @@ align-items: center;
         margin: 10rem;
     } 
 
-    .container1 img {
+    .container img {
         height: 200px;
         width: 200px;
+    }
+
+    .text_intro {
+        margin-left: 50px;
     }
 
     .nav_bar {

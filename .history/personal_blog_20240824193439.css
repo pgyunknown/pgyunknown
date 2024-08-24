@@ -203,6 +203,10 @@ align-items: center;
         width: 200px;
     }
 
+    .text_intro {
+        margin-left: 50px;
+    }
+
     .nav_bar {
         width: 100%;
     }
