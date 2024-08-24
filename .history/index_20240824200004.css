@@ -71,9 +71,7 @@ header{
     align-items: center;
     padding-top:10px;
     padding-bottom :10px;
-    /* padding-right:10px ;
-    padding-left:10px ; */
-}
+
 
 .nav_bar a:hover{
     color: #FFC107;
@@ -140,6 +138,10 @@ main{
     align-items: start;
     
 }
+
+.intro {
+  color:;
+}
 .title {
     color: #00C8FF;
 }
@@ -194,23 +196,3 @@ align-items: center;
 
 }
 
-@media (min-width:720px) {
-    main {
-        flex-direction: row;
-        padding: 1rem;
-        margin: 10rem;
-    } 
-
-    .container img {
-        height: 200px;
-        width: 200px;
-    }
-
-    .text_intro {
-        margin-left: 50px;
-    }
-
-    .nav_bar {
-        width: 450px;
-    }
-}
