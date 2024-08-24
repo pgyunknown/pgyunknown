@@ -26,7 +26,7 @@ header{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
     overflow: hidden;
-    position: sticky; /* Set the navbar to fixed position */
+    position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
 } 
@@ -106,23 +106,19 @@ header{
     box-shadow: 0px 0px 5px 2px #3c555f;
 
 } 
-    /* main{ 
+    main{ 
     display: flex;
     flex-direction:column ;
     align-items: center;
     justify-content: center;
     height: 600px;
     width: 90%;
-     justify-content:space-around; 
+    /* justify-content:space-around; */
     align-items: center;
     padding: 50px;
     margin: 60px 20px 70px 20px;
-    } */
+    
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     height: 100%;
     width:100%;
 }
