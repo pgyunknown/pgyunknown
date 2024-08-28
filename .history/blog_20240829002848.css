@@ -118,8 +118,6 @@ main{
 }
 .heading{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 30px;
     padding-bottom: 20px;
     font-family: "Montserrat", sans-serif;
@@ -129,21 +127,11 @@ main{
     font-style: normal;
     color: #FFC107;
 }
-.heading p{
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-optical-sizing: ;
-    font-size: medium;
-    font-weight: 200;
-    font-style: normal;
-    letter-spacing: 1px;
+.heading1{
+        display: flex;
+    margin: 30px;
+    padding-bottom: 20px;
 }
-
-.heading #img{
-    color: #FFC107;
-}
-
 
 main .heading span{
     color: #1ABEFF;

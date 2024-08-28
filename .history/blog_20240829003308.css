@@ -130,18 +130,16 @@ main{
     color: #FFC107;
 }
 .heading p{
-    color: white;
+    col;
+    margin-bottom:20px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-optical-sizing: ;
     font-size: medium;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
-    letter-spacing: 1px;
-}
-
-.heading #img{
-    color: #FFC107;
+    word-spacing: 1px;
+    line-height: 15px;
 }
 
 
