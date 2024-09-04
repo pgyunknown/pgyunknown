@@ -5,7 +5,20 @@ I'm a Web Developer.<br>Programming caffeine into Java.<br>We Go Gym<br>Cinephil
 ##  Socials 🌐:
 <a href="https://www.linkedin.com/in/p-gokul-yadav-82548a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="21px"/>
+
+<a href="https://x.com/cody_hunk?t=EkARfGCWhhBT_BHbby4DGw&s=08" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X (formerly Twitter)" width="21px"/>
 </a>
+
+<a href="https://www.reddit.com/u/gt650offical/s/5dDHZqiJRd" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174866.png" alt="Reddit" width="21px"/>
+</a>
+
+<a href="https://www.instagram.com/pgy.hunk?igsh=NHBjYnBqZmtrZXMw" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="21px"/>
+</a>
+
+
 
 
 </br>
