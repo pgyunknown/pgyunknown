@@ -3,19 +3,10 @@ I'm a Web Developer.<br>Programming caffeine into Java.<br>We Go Gym<br>Cinephil
 
 
 ##  Socials 🌐:
-<a href="https://www.linkedin.com/in/p-gokul-yadav-82548a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img align="left" src="https://github.com/pgyunknown/pgyunknown/blob/main/icons/linkedin.svg" alt="LinkedIn" width="21px"/></a>
-
-<a href="https://x.com/cody_hunk?t=EkARfGCWhhBT_BHbby4DGw&s=08"><img align="left" src="https://github.com/pgyunknown/pgyunknown/blob/main/icons/x.svg" alt="X" width="21px"/></a>
-
-<a href="https://www.reddit.com/u/gt650offical/s/5dDHZqiJRd">
-  <img align="left" src="https://raw.githubusercontent.com/pgyunknown/pgyunknown/main/icons/reddit.svg" alt="Reddit" width="21px"/>
+<a href="https://www.linkedin.com/in/p-gokul-yadav-82548a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+    <i class="fa-brands fa-linkedin"></i>
 </a>
 
-
-
-<a href="https://www.instagram.com/pgy.hunk?igsh=NHBjYnBqZmtrZXMw"><img align="left" src="https://github.com/pgyunknown/pgyunknown/blob/main/icons/instagram.svg" alt="Instagram" width="21px"/></a>
-
-</br>
 </br>
 
 #  Tech Stack 💻:
